@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    height: 100vh; /* Make the body fill the viewport height */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */ 
+    background-color: #bbd0c9; 
+}
+
+.result{
+    font-family: 'Pacifico';
+    font-size: 30px;
+}
+
+.resultbtn{
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border: black;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+.resultbtn:hover{
+    transform: scale(1.1);
+}
+.result-choices{
+    font-family: 'Pacifico';
+    font-size: 30px;
+    display:none;
+}
+.appear{
+    display: block;
+}

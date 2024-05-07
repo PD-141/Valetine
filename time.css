@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    height: 100vh; /* Make the body fill the viewport height */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */ 
+    background-color: #bbd0c9; 
+
+}
+.question{
+    font-family: 'Pacifico';
+    font-size: 45px;    
+}
+
+.button{
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border: black;
+    border-radius: 30px;
+}
+.day{
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: none;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border: black;
+    border-radius: 30px 
+}
+
+.evening{
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border: black;
+    border-radius: 30px;
+}
+
+

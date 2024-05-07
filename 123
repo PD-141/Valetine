@@ -1,0 +1,4 @@
+You can use sessionStorage.getItem('name') 
+to get the stored data and sessionStorage.setItem('name', 'value').
+
+I have 5 base Pages
